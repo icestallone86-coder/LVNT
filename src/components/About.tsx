@@ -38,7 +38,7 @@ export const About: React.FC = () => {
               {t('about.p1')}
             </p>
 
-            <p className="text-zinc-400 text-base sm:text-lg leading-relaxed font-light font-light">
+            <p className="text-zinc-400 text-base sm:text-lg leading-relaxed font-light">
               {t('about.p2')}
             </p>
           </motion.div>
@@ -53,7 +53,7 @@ export const About: React.FC = () => {
           >
             <div className="relative aspect-[4/5] sm:aspect-[3/4] overflow-hidden border border-zinc-800">
               <img
-                src="https://images.unsplash.com/photo-1514525253361-b83f859b73c0?auto=format&fit=crop&q=80&w=1200"
+                src="/about-lvnt.jpeg"
                 alt="LVNT Studio & Direction"
                 className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
