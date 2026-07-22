@@ -53,7 +53,7 @@ export const About: React.FC = () => {
           >
             <div className="relative aspect-[4/5] sm:aspect-[3/4] overflow-hidden border border-zinc-800">
               <img
-                src="Lvntlogo.jpeg"
+                src="https://images.unsplash.com/photo-1514525253361-b83f859b73c0?auto=format&fit=crop&q=80&w=1200"
                 alt="LVNT Studio & Direction"
                 className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
