@@ -205,8 +205,8 @@ export const INITIAL_NEWS: NewsItem[] = [
 ];
 
 export const INITIAL_CONTACT_INFO: ContactInfo = {
-  email: "contact@lvnt.com",
-  phone: "+33 (0)1 89 71 40 20",
+  email: "contact@lvntgroup.com",
+  phone: "+32 467 83 76 56",
   address: "12 Place Vendôme, 75001 Paris, France",
   instagram: "https://instagram.com/lvnt_management",
   facebook: "https://facebook.com/lvnt_management",
