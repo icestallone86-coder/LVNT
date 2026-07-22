@@ -1,8 +1,8 @@
-name: Deploy React Vite site to Pages
+name: Deploy Vite Site to Pages
 
 on:
   push:
-    branches: ["main"] # Remplacez par "master" si votre branche principale s'appelle master
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -15,24 +15,24 @@ concurrency:
 
 jobs:
   build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build site
         run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
