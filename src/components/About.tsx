@@ -53,7 +53,7 @@ export const About: React.FC = () => {
           >
             <div className="relative aspect-[4/5] sm:aspect-[3/4] overflow-hidden border border-zinc-800">
               <img
-                src="WhatsApp Image 2026-07-22 at 3.29.55 PM.jpeg"
+                src="Lvntlogo.jpeg"
                 alt="LVNT Studio & Direction"
                 className="w-full h-full object-cover filter grayscale contrast-125 hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
